@@ -7,6 +7,7 @@ public class MyClass {
     System.out.println("OOO  OOO    OOO    OO   OOO   OOO    OOO OOO    OO   OO   OOOO");
     System.out.println("OOOO  OOOO  OOOOOOOOO  OOOOO OOOOOOOOO  OOOOOOOOOOO OOOO    OO ");
 
+//This will print out the answer which is 0.531496062992126 
    		        double prod1=6.0*3.5;
 			double prod2=1.5*5;
 			double sub=prod1-prod2;
@@ -17,8 +18,8 @@ public class MyClass {
 			
 			System.out.println("");
 			System.out.println("");
-
-     			 double pi=3.1519;
+//This will show the circumference and area of a circle usong the radius
+     			double pi=3.1519;
 			double rad=4.0;
 			double rad2=16.0;
 				
