@@ -1,0 +1,68 @@
+//Cigar Party
+public boolean cigarParty(int cigars, boolean isWeekend) {
+  if (isWeekend == true && cigars>=40)
+  {
+  return true;
+  }
+  if (cigars >=40 && cigars<=60)
+  {
+  return true ;
+  }
+  else return false;
+}
+
+//dateParty
+public int dateFashion(int you, int date){
+  if(you<=2 || date<=2)
+  {
+  return 0;
+  }
+  if(you>=8 || date>=8)
+  {
+  return 2l
+  }
+  else return 1;
+}
+
+//squirrelPLay
+public boolean squirrielPlay(int temo, boolean isSummer){
+  if(temp >=60 && temp<=90)
+  {
+  return true:
+  } 
+  if (isSummer== true && temp<=100 && temp>=60)
+  {
+  return true;
+  }
+  e;se return false;
+}
+
+//caughtSpeeding
+public int caughtSpeeding(int speed, boolean isBirthday) {
+  if (isBirthday==true && speed>=66 && speed<=86)
+  {
+  return 1;
+  }
+  if (isBirthday==true && speed<66)
+  {
+  return 0;
+  }
+  if (speed>=61 && speed<=81)
+  {
+  return 1;
+  }
+  if (speed >= 81)
+  {
+  return 2;
+  }
+  return 0;
+}
+
+//sortaSum 
+public int sortaSum(int a, int b) {
+  if ((a+b>=10)&&(a+b<=19))
+  {
+  return 20;
+  }
+  return a+b;
+}
