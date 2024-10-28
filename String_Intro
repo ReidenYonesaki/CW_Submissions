@@ -40,33 +40,22 @@ public class Strings_Intro {
 			//This prints out the text and put onto a string again
         
 		}
-		 * It will locate and return the index of a letter e if it is including in a string.
 		public static int findTheE(String str)
+		 //It will locate and return the index of a letter e
 		{
 			return(str.indexOf('e'));
-			//This finds the index of e of the string that I passed it.
-			//If it finds the e, it will return the index.
-			//If it doesn't finds the e, it will return a -1.
+			//This will find the index of e
 		
-		}
-
-		/**
-		 * This is a method that is passed a String.
-		 * It will return the length of a string word. 
-		 */
+		} 
 		public static int getLength(String str)
+		//This will return the length of a string word. 
 		{
 			return(str.length());
-			//This finds the length of the string that I passed it.
-			//It will then return its length.
+			//This will find the length of the string
 		
 		}
-	
-		/**
-		 * This is a method that is passed a String.
-		 * It will print the first and last three letters of a string word.
-		 */
 		public static void printFirstAndLastThree(String str)
+		//This will print the first and last three letters of a string word.
 		{
 		System.out.println("The first three leters: " + str.substring(0,3));
 		//This prints out the text then it adds on a string that will be passed in the Scanner.
@@ -74,11 +63,7 @@ public class Strings_Intro {
 		//The 0-3 index prints out the first three letters of the string passed.
 		
         System.out.println("The last three leters: " + str.substring(str.length()-3, str.length()));
-        //This prints out the text then it adds on a string that will be passed in the Scanner.
-        //It is a substring so it only will print out part of the string.
-      	//The first part identifies the length of the string and subtracts 3 then it goes through
-        //the rest of the string length.
-        //This prints the last three letters of the string.
+        //This prints out the text, use the substring which is part of the string, and then print the last three letters
         
 		}
 	}
