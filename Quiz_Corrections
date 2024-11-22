@@ -1,0 +1,14 @@
+package Reiden_Yonesaki;
+
+public class Logic_Quiz_Corrections {
+
+	public static void main(String[] args) {
+		System.out.print(findIfIsLeapYear(3200));
+
+	}
+
+	public static boolean findIfIsLeapYear(int year)
+	{
+		return(year % 4==0 && year % 100 !=0 || year % 400 == 0);
+	}
+}
